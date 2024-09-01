@@ -21,7 +21,7 @@ Bem-vindo à **Pokédex React**! Este projeto é uma aplicação web desenvolvid
 1. Clone o repositório:
 
 ```
-   git clone https://github.com/seu-usuario/pokedex-react.git
+   git clone https://github.com/Lg-crypto/pokedex.git
 ```
 
 ## Veja mais em [Pokedex](https://pokedex-sigma-snowy.vercel.app/).
