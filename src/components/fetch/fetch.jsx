@@ -8,7 +8,7 @@ export default function Fetch() {
     const [currentPage , setCurrentPage] = useState(1);
     const fetchPokemon = async () => {
         const endpoints = [];
-        for (let i = 1; i <= 1000; i++) {
+        for (let i = 1; i <= 1025; i++) {
             endpoints.push(`https://pokeapi.co/api/v2/pokemon/${i}`);
         }
         await axios.all(endpoints.map((endpoint)=>axios.get(endpoint))).then((res)=>setData(res)).catch((e)=>console.log(e));
