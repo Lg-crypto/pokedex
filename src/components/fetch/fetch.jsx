@@ -26,7 +26,7 @@ export default function Fetch() {
         <main>
             <header>
                 <div id="icon">
-                    icon
+                    <img src="/assets/pokemon.png" alt="icon"/>
                 </div>
                 <input
                     type="text" 

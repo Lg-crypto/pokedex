@@ -10,10 +10,12 @@ header{
   display: flex;
   background: #000;
   padding: 10px;
+  align-items: center;
   justify-content: space-between;
   color: #fff;
 }
 input{
+  height: 20px;
   border: none;
   outline: none;
   padding: 5px;
