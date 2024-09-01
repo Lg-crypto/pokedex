@@ -1,0 +1,89 @@
+/* Normal Type */
+.normal {
+    background-color: #ac9a73; /* Cor creme */
+}
+
+/* Fire Type */
+.fire {
+    background-color: #e64900; /* Cor laranja avermelhada */
+}
+
+/* Water Type */
+.water {
+    background-color: #4682b4; /* Cor azul escura */
+}
+
+/* Grass Type */
+.grass {
+    background-color: #4caf50; /* Cor verde */
+}
+
+/* Electric Type */
+.electric {
+    background-color: #fdd835; /* Cor amarela */
+}
+
+/* Ice Type */
+.ice {
+    background-color: #00bcd4; /* Cor azul claro */
+}
+
+/* Fighting Type */
+.fighting {
+    background-color: #b71c1c; /* Cor vermelha escura */
+}
+
+/* Poison Type */
+.poison {
+    background-color: #6a1b9a; /* Cor roxa */
+}
+
+/* Ground Type */
+.ground {
+    background-color: #a1887f; /* Cor marrom claro */
+}
+
+/* Flying Type */
+.flying {
+    background-color: #81d4fa; /* Cor azul claro */
+}
+
+/* Psychic Type */
+.psychic {
+    background-color: #d81b60; /* Cor rosa choque */
+}
+
+/* Bug Type */
+.bug {
+    background-color: #8bc34a; /* Cor verde-limão */
+}
+
+/* Rock Type */
+.rock {
+    background-color: #8d6e63; /* Cor marrom médio */
+}
+
+/* Ghost Type */
+.ghost {
+    background-color: #9e9e9e; /* Cor cinza */
+}
+
+/* Dragon Type */
+.dragon {
+    background-color: #8e24aa; /* Cor roxo */
+}
+
+/* Dark Type */
+.dark {
+    background-color: #212121; /* Cor preta */
+}
+
+/* Steel Type */
+.steel {
+    background-color: #9e9e9e; /* Cor cinza metálico */
+}
+
+/* Fairy Type */
+.fairy {
+    background-color: #f48fb1; /* Cor rosa claro */
+}
