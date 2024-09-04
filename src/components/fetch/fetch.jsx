@@ -34,7 +34,7 @@ export default function Fetch() {
                     id="search" 
                     placeholder="search..." 
                     onChange={(e)=>{
-                        setSearch(e.target.value)
+                        setSearch(e.target.value.toLowerCase());
                         setCurrentPage(1);
                     }}
                 />
@@ -45,7 +45,7 @@ export default function Fetch() {
                     if(index >= ((currentPage-1)*49) && index <= (currentPage*49)){
                         console.log(currentPage);
                         return(
-                            <Card index={index} name={pokemon.data.name} image={pokemon.data.sprites.front_default} types={pokemon.data.types}/>
+                            <Card index={index} name={pokemon.data.name} image={pokemon.data.sprites.front_default} stats={pokemon.data.stats} types={pokemon.data.types}/>
                         )
                     }
                 })
@@ -58,8 +58,9 @@ export default function Fetch() {
             </div>
             <footer>
                 <div className="BTNs">
-                    <button onClick={()=>{setCurrentPage(currentPage-1)}}>{'<'} back</button>
-                    <button onClick={()=>{setCurrentPage(currentPage+1)}}>next {'>'}</button>
+                    <button onClick={()=>(currentPage-1) > 0 ? setCurrentPage(currentPage-1): 0}>{'<'} back</button>
+                    <span className="pageNumber">{currentPage}</span>
+                    <button onClick={()=>(currentPage-1) < 20 ? setCurrentPage(currentPage+1) : 0}>next {'>'}</button>
                 </div>
             </footer>
         </main>
